@@ -6,6 +6,10 @@
 		<name>tastytea</name>
 	</maintainer>
 	<upstream>
-		<bugs-to>https://github.com/CLD2Owners/cld2/issues</bugs-to>
+		<bugs-to>https://github.com/microsoft/cpprestsdk/issues</bugs-to>
 	</upstream>
+	<use>
+		<flag name="websockets">Support the WebSocket protocol</flag>
+		<flag name="brotli">Enable brotli compression/decompression support</flag>
+	</use>
 </pkgmetadata>
